@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-APP</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body onload="displayData()">
+    <div class="container-div">
+        <h2 id="question">Question</h2>
+        <div id="mainDiv">
+            <ul id="radio">
+                <li class="radio-1">
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a_text" id="a_text">Question</label>
+                </li>
+                <br />
+                <li class="radio-2">
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="b_text" id="b_text">Question</label>
+                </li>
+                <br />
+
+                <li class="radio-3">
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="c_text" id="c_text">Question</label>
+                </li>
+                <br />
+
+                <li class="radio-4">
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="c_text" id="d_text">Question</label>
+                </li>
+
+            </ul>
+            <button onclick="next()">Next</button>
+        </div>
+
+        <script src="./app.js"></script>
+</body>
+
+</html>

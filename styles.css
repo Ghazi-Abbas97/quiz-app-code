@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+}
+
+.container-div {
+    height: 30rem;
+    width: 62rem;
+    background-color: white;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: #5F1719;
+}
+
+
+#question {
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    left: 2rem;
+    color: white;
+}
+
+.radio-1 {
+    background-color: #F2F7FE;
+    width: 15rem;
+    height: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid #F2F7FE;
+    list-style: none;
+}
+
+.radio-2 {
+    background-color: #F2F7FE;
+    width: 15rem;
+    height: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid #F2F7FE;
+    list-style: none;
+
+}
+
+.radio-3 {
+    background-color: #F2F7FE;
+    width: 15rem;
+    height: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid #F2F7FE;
+    list-style: none;
+
+}
+
+
+.radio-4 {
+    background-color: #F2F7FE;
+    width: 15rem;
+    height: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid #F2F7FE;
+    list-style: none;
+}
+
+#mainDiv>button {
+    margin-left: 2.5rem;
+    height: 3rem;
+    width: 5rem;
+    font-size: 19px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.h2 {
+    color: white;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 25px;
+}
